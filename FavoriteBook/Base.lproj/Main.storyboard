@@ -199,10 +199,10 @@
                                                 </textField>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="SUp-6t-Wnf" firstAttribute="leading" secondItem="BkK-1y-2Oq" secondAttribute="leading" id="PzU-Bn-MIW"/>
-                                                <constraint firstAttribute="bottom" secondItem="SUp-6t-Wnf" secondAttribute="bottom" id="ePG-Nn-UNl"/>
-                                                <constraint firstItem="SUp-6t-Wnf" firstAttribute="top" secondItem="BkK-1y-2Oq" secondAttribute="top" id="jYd-pT-aHQ"/>
-                                                <constraint firstAttribute="trailing" secondItem="SUp-6t-Wnf" secondAttribute="trailing" id="l3v-ZE-0a6"/>
+                                                 <constraint firstItem="SUp-6t-Wnf" firstAttribute="leading" secondItem="BkK-1y-2Oq" secondAttribute="leadingMargin" id="PzU-Bn-MIW"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="SUp-6t-Wnf" secondAttribute="bottom" id="ePG-Nn-UNl"/>
+                                                <constraint firstItem="SUp-6t-Wnf" firstAttribute="top" secondItem="BkK-1y-2Oq" secondAttribute="topMargin" id="jYd-pT-aHQ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="SUp-6t-Wnf" secondAttribute="trailing" id="l3v-ZE-0a6"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -225,10 +225,10 @@
                                                 </textField>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="062-Yn-bAG" secondAttribute="bottom" id="FcB-9C-lPg"/>
-                                                <constraint firstAttribute="trailing" secondItem="062-Yn-bAG" secondAttribute="trailing" id="I0N-kK-yfX"/>
-                                                <constraint firstItem="062-Yn-bAG" firstAttribute="top" secondItem="egs-G9-MxR" secondAttribute="top" id="ioW-t1-vhm"/>
-                                                <constraint firstItem="062-Yn-bAG" firstAttribute="leading" secondItem="egs-G9-MxR" secondAttribute="leading" id="qM5-Jv-zae"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="062-Yn-bAG" secondAttribute="bottom" id="FcB-9C-lPg"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="062-Yn-bAG" secondAttribute="trailing" id="I0N-kK-yfX"/>
+                                                <constraint firstItem="062-Yn-bAG" firstAttribute="top" secondItem="egs-G9-MxR" secondAttribute="topMargin" id="ioW-t1-vhm"/>
+                                                <constraint firstItem="062-Yn-bAG" firstAttribute="leading" secondItem="egs-G9-MxR" secondAttribute="leadingMargin" id="qM5-Jv-zae"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
