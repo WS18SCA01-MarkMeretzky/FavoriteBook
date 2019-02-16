@@ -68,13 +68,13 @@ class BookTableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let bookFormViewController: BookFormTableViewController = segue.destination as? BookFormTableViewController else {
+        guard let bookFormTableViewController: BookFormTableViewController = segue.destination as? BookFormTableViewController else {
             return;
         }
         
         if let indexPath: IndexPath = tableView.indexPathForSelectedRow,
             segue.identifier == PropertyKeys.editBookSegue {
-            bookFormViewController.book = books[indexPath.row];
+            bookFormTableViewController.book = books[indexPath.row];
         }
     }
     
