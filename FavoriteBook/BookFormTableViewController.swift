@@ -21,12 +21,20 @@ class BookFormTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad();
+        
+        if let book: Book = book {
+            //About to edit an existing book.
+            titleTextField.text = book.title;
+            authorTextField.text = book.author;
+            genreTextField.text = book.genre;
+            lengthTextField.text = book.length;
+        }
 
         // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false;
+        // clearsSelectionOnViewWillAppear = false;
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+        // navigationItem.rightBarButtonItem = editButtonItem;
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
