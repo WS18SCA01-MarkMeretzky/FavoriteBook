@@ -154,7 +154,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                </ce
+                                </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="Author" id="fu5-te-GzV">
                                 <cells>
